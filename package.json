@@ -1,0 +1,29 @@
+{
+  "name": "weatherman",
+  "version": "1.0.0",
+  "description": "Weather web app for test",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "webpack": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-griffin/weatherman.git"
+  },
+  "keywords": [
+    "weather",
+    "app"
+  ],
+  "author": "Brian Griffin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-griffin/weatherman/issues"
+  },
+  "homepage": "https://github.com/brian-griffin/weatherman#readme"
+}
