@@ -17,7 +17,7 @@ app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'))
 })
 
-app.listen(3000, 'localhost', function (err, result) {
+app.listen(80, 'localhost', function (err, result) {
   if (err) console.log(err)
   console.log('Listening on port 3000')
 })
