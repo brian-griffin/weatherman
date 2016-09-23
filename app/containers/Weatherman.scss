@@ -1,0 +1,34 @@
+.weatherman {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #edffff;
+  border: solid 12px #275656;
+  border-radius: 24px;
+  position: relative;
+
+  .location {
+    font-weight: 300;
+    position: absolute;
+    top: 40px;
+    right: 24px;
+
+    .label,
+    .value {
+      padding: 8px 16px;
+    }
+
+    .label {
+      background-color: #666;
+      color: #f6f6f6;
+      border-radius: 8px 0 0 8px;
+    }
+
+    .value {
+      background-color: #275656;
+      color: #f6f6f6;
+      border-radius: 0 8px 8px 0;
+      font-weight: 600;
+    }
+  }
+}
