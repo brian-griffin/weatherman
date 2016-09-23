@@ -5,6 +5,7 @@ const config = require('./webpack.config')
 
 const app = express()
 const compiler = webpack(config)
+const port = process.env.PORT || 8080;
 
 app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
@@ -17,7 +18,7 @@ app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'))
 })
 
-app.listen(80, 'localhost', function (err, result) {
+app.listen(port, function (err, result) {
   if (err) console.log(err)
-  console.log('Listening on port 3000')
+  console.log('App running on http://localhost:'+port)
 })
