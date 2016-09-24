@@ -14,6 +14,10 @@ npm start
 
 Then visit [http://localhost:8080](http://localhost:8080)
 
+## Hosted demo
+
+Visit [http://gr-weatherman.herokuapp.com/](http://gr-weatherman.herokuapp.com/)
+
 ## Technology
 
 * NPM
